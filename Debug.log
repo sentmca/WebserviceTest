@@ -38,3 +38,413 @@ Jun 29, 2012 7:59:17 PM org.ofbiz.party.test.Main postXmlString
 INFO: Response Code:S103
 Jun 29, 2012 7:59:17 PM org.ofbiz.party.test.Main postXmlString
 INFO: Returened Success.
+Jun 29, 2012 9:46:27 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><ASSIGNED_STORE>00200</ASSIGNED_STORE><CUSTOMER_CROSS_REFERENCES/><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID>         <CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT>     </EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jun 29, 2012 9:46:29 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@b09e89
+Jun 29, 2012 9:46:29 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S103
+Jun 29, 2012 9:46:29 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:35 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000849#00001
+Jun 30, 2012 12:00:39 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@ca8327
+Jun 30, 2012 12:00:40 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:40 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:40 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000856#00001
+Jun 30, 2012 12:00:40 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1592174
+Jun 30, 2012 12:00:40 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:40 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:40 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000864#00001
+Jun 30, 2012 12:00:41 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@bfea1d
+Jun 30, 2012 12:00:41 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:41 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:41 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000872#00001
+Jun 30, 2012 12:00:41 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1b9ce4b
+Jun 30, 2012 12:00:41 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:41 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:41 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000880#00001
+Jun 30, 2012 12:00:42 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1d85f79
+Jun 30, 2012 12:00:42 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:42 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:42 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000898#00001
+Jun 30, 2012 12:00:43 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@4e79f1
+Jun 30, 2012 12:00:43 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:43 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:43 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000906#00001
+Jun 30, 2012 12:00:43 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@13ad085
+Jun 30, 2012 12:00:43 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:43 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:43 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000914#00001
+Jun 30, 2012 12:00:44 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@10a2d64
+Jun 30, 2012 12:00:44 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:44 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:44 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000922#00001
+Jun 30, 2012 12:00:44 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@15a0305
+Jun 30, 2012 12:00:44 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:44 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:44 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000930#00001
+Jun 30, 2012 12:00:45 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@cbf30e
+Jun 30, 2012 12:00:45 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:45 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:45 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000948#00001
+Jun 30, 2012 12:00:45 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@e45076
+Jun 30, 2012 12:00:45 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:45 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:45 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000955#00001
+Jun 30, 2012 12:00:46 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@bb7759
+Jun 30, 2012 12:00:46 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:46 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:46 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000963#00001
+Jun 30, 2012 12:00:47 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@10382a9
+Jun 30, 2012 12:00:47 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:47 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:47 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000971#00001
+Jun 30, 2012 12:00:47 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@f0c0d3
+Jun 30, 2012 12:00:47 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:47 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:47 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000989#00001
+Jun 30, 2012 12:00:48 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@3e89c3
+Jun 30, 2012 12:00:48 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:48 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:48 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000997#00001
+Jun 30, 2012 12:00:48 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1e59128
+Jun 30, 2012 12:00:48 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:48 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:48 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000004#00001
+Jun 30, 2012 12:00:49 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@4e280c
+Jun 30, 2012 12:00:49 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:49 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:49 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000012#00001
+Jun 30, 2012 12:00:49 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@9e29fb
+Jun 30, 2012 12:00:49 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:49 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:49 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000020#00001
+Jun 30, 2012 12:00:50 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@172e449
+Jun 30, 2012 12:00:50 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:50 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:00:50 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000038#00001
+Jun 30, 2012 12:00:51 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@f01a1e
+Jun 30, 2012 12:00:51 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S104
+Jun 30, 2012 12:00:51 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jun 30, 2012 12:01:56 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000849#00001
+Jun 30, 2012 12:01:57 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@55571e
+Jun 30, 2012 12:01:57 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:01:57 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:01:57 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000856#00001
+Jun 30, 2012 12:01:58 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1543c88
+Jun 30, 2012 12:01:58 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:01:58 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:01:58 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000864#00001
+Jun 30, 2012 12:01:59 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1d15445
+Jun 30, 2012 12:01:59 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:01:59 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:01:59 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000872#00001
+Jun 30, 2012 12:01:59 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@c7b00c
+Jun 30, 2012 12:01:59 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:01:59 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:01:59 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000880#00001
+Jun 30, 2012 12:02:00 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@10f11b8
+Jun 30, 2012 12:02:00 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:00 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:00 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000898#00001
+Jun 30, 2012 12:02:00 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1c282a1
+Jun 30, 2012 12:02:00 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:00 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:00 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000906#00001
+Jun 30, 2012 12:02:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@12d263f
+Jun 30, 2012 12:02:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:01 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000914#00001
+Jun 30, 2012 12:02:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1db7df8
+Jun 30, 2012 12:02:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:01 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000922#00001
+Jun 30, 2012 12:02:02 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@e1d5ea
+Jun 30, 2012 12:02:02 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:02 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:02 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000930#00001
+Jun 30, 2012 12:02:03 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@148bd3
+Jun 30, 2012 12:02:03 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:03 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:03 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000948#00001
+Jun 30, 2012 12:02:03 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1431340
+Jun 30, 2012 12:02:03 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:03 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:03 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000955#00001
+Jun 30, 2012 12:02:04 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@76e369
+Jun 30, 2012 12:02:04 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:04 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:04 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000963#00001
+Jun 30, 2012 12:02:04 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1bd2664
+Jun 30, 2012 12:02:04 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:04 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:04 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000971#00001
+Jun 30, 2012 12:02:05 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1506dc4
+Jun 30, 2012 12:02:05 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:05 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:05 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000989#00001
+Jun 30, 2012 12:02:05 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@193722c
+Jun 30, 2012 12:02:05 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:05 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:05 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000997#00001
+Jun 30, 2012 12:02:06 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@7bb290
+Jun 30, 2012 12:02:06 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:06 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:06 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000004#00001
+Jun 30, 2012 12:02:06 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1df8b99
+Jun 30, 2012 12:02:06 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:06 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:06 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000012#00001
+Jun 30, 2012 12:02:07 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1275d39
+Jun 30, 2012 12:02:07 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:07 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:07 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000020#00001
+Jun 30, 2012 12:02:08 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@9e29fb
+Jun 30, 2012 12:02:08 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:08 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 12:02:08 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000038#00001
+Jun 30, 2012 12:02:08 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@b9b538
+Jun 30, 2012 12:02:08 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 12:02:08 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
