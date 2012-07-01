@@ -36,11 +36,8 @@ public class Main {
 
 	}
 
-	
-	
-	
 	public static String postXmlString() throws IOException {
-		
+
 		FileHandler hand = new FileHandler("Debug1.log", true);
 		Logger log = Logger.getLogger("LoggingExample1");
 
@@ -49,63 +46,72 @@ public class Main {
 		log.addHandler(hand);
 
 		HttpClient client = new HttpClient();
-		//String url = "https://striderite.groupfio.com/crmsfa/control/updateCustomer";
-		//String url = "https://striderite.groupfio.com/crmsfa/control/atgCustomerCertificateSearch";
-		//String url = "https://striderite.groupfio.com/crmsfa/control/atgDistinctLoyaltySearch";
-		//String url = "https://striderite.groupfio.com/crmsfa/control/getEarnedPointsForAtgOrder";
+//		 String url =
+//		 "https://striderite.groupfio.com/crmsfa/control/updateCustomer";
+//		 String url =
+//		 "https://striderite.groupfio.com/crmsfa/control/atgCustomerCertificateSearch";
+//		 String url =
+//		 "https://striderite.groupfio.com/crmsfa/control/atgDistinctLoyaltySearch";
+//		 String url
+//		 ="https://striderite.groupfio.com/crmsfa/control/getEarnedPointsForAtgOrder";
 		String url = "https://striderite.groupfio.com/crmsfa/control/getAvailableBalancePointsByAtgCustomer";
 		PostMethod method = new PostMethod(url);
 
 		try {
-			FileInputStream fstream = new FileInputStream("TestFiles\\getCustomerPoint.txt");
+			FileInputStream fstream = new FileInputStream(
+					"TestFiles\\getCustomerPoint.txt");
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
 			String strLine;
-			
-				while ((strLine = br.readLine()) != null) {
-						String InputXml = strLine;
-		
-						// String[] loyId = strLine.split("#");
-						method.setParameter("XmlInput", strLine);
-						
-						// method.setParameter("XmlInput","<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><WEBSERVICE><REQUEST><REQ_COUPON_DETAILS><REQ_COUPON_CODE>"+loyId[0].trim()+"</REQ_COUPON_CODE><REQ_COUPON_TYPE>SERIALIZE</REQ_COUPON_TYPE></REQ_COUPON_DETAILS><REQ_TRANSACTION_DETAILS><REQ_STORE_ID>"+loyId[1].trim()+"</REQ_STORE_ID><REQUEST_DATE>2011-09-30 13:17:00</REQUEST_DATE></REQ_TRANSACTION_DETAILS></REQUEST></WEBSERVICE>");
-						
-						log.info("XML INPUT: \n" + InputXml);
-						InputStream response = null;
-						client.executeMethod(method);
-						response = method.getResponseBodyAsStream();
-		
-						String line;
-						StringBuilder sb = new StringBuilder();
-						
-						String outPutXml="";
-						try {
-							outPutXml=convertStreamToString(response);
-						} catch (Exception e1) {
-							// TODO Auto-generated catch block
-							e1.printStackTrace();
-						}
-						
-						log.info("ResponseXml:"+outPutXml);
-		
-						log.info("XML OutPut: \n" + sb.toString());
-		
-						String resPonseCode = validateOutPut(outPutXml);
-						
-						if(resPonseCode!=null){
-							log.info("Response Code:" + resPonseCode +" : "+ResourceMgr.getResourceFromConfigBundle(resPonseCode));
-						}else{
-							log.info("Response Code:" + resPonseCode);
-						}
-		
-						if (resPonseCode != null && resPonseCode.startsWith("S")) {
-							log.info("Returened Success.");
-						} else {
-							log.warning("Service Failed.");
-							//break;
-						}
-	
+
+			while ((strLine = br.readLine()) != null) {
+				String InputXml = strLine;
+
+				// String[] loyId = strLine.split("#");
+				method.setParameter("XmlInput", strLine);
+
+				// method.setParameter("XmlInput","<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><WEBSERVICE><REQUEST><REQ_COUPON_DETAILS><REQ_COUPON_CODE>"+loyId[0].trim()+"</REQ_COUPON_CODE><REQ_COUPON_TYPE>SERIALIZE</REQ_COUPON_TYPE></REQ_COUPON_DETAILS><REQ_TRANSACTION_DETAILS><REQ_STORE_ID>"+loyId[1].trim()+"</REQ_STORE_ID><REQUEST_DATE>2011-09-30 13:17:00</REQUEST_DATE></REQ_TRANSACTION_DETAILS></REQUEST></WEBSERVICE>");
+
+				log.info("XML INPUT: \n" + InputXml);
+				InputStream response = null;
+				client.executeMethod(method);
+				response = method.getResponseBodyAsStream();
+
+				String line;
+				StringBuilder sb = new StringBuilder();
+
+				String outPutXml = "";
+				try {
+					outPutXml = convertStreamToString(response);
+				} catch (Exception e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
 				}
+
+				log.info("ResponseXml:" + outPutXml);
+
+				log.info("XML OutPut: \n" + sb.toString());
+
+				String resPonseCode = validateOutPut(outPutXml);
+
+				if (resPonseCode != null) {
+					log.info("Response Code:"
+							+ resPonseCode
+							+ " : "
+							+ ResourceMgr
+									.getResourceFromConfigBundle(resPonseCode));
+				} else {
+					log.info("Response Code:" + resPonseCode);
+				}
+
+				if (resPonseCode != null && resPonseCode.startsWith("S")) {
+					log.info("Returened Success.");
+				} else {
+					log.warning("Service Failed.");
+					// break;
+				}
+
+			}
 			in.close();
 		} catch (HttpException e) {
 			// TODO Auto-generated catch block
@@ -119,11 +125,10 @@ public class Main {
 		return "Success";
 
 	}
-	
-	
 
 	/**
 	 * Validating Customer Responses
+	 * 
 	 * @param response
 	 * @return
 	 */
@@ -133,8 +138,9 @@ public class Main {
 			JAXBContext jc = JAXBContext.newInstance(RESPONSE.class);
 			Unmarshaller u = jc.createUnmarshaller();
 
-			ByteArrayInputStream input = new ByteArrayInputStream (response.getBytes()); 
-			
+			ByteArrayInputStream input = new ByteArrayInputStream(
+					response.getBytes());
+
 			RESPONSE responses = (RESPONSE) u.unmarshal(input);
 			resPonseCode = responses.getRESPONSECODE();
 
@@ -144,12 +150,10 @@ public class Main {
 
 		return resPonseCode;
 	}
-	
-	
-	
 
 	/**
 	 * Validating Coupon Responses.
+	 * 
 	 * @param response
 	 * @return
 	 */
@@ -179,17 +183,16 @@ public class Main {
 
 		return resPonseCode;
 	}
-	
-	
-	 public static String convertStreamToString(InputStream is) throws Exception {
-		    BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-		    StringBuilder sb = new StringBuilder();
-		    String line = null;
-		    while ((line = reader.readLine()) != null) {
-		      sb.append(line + "\n");
-		    }
-		    is.close();
-		    return sb.toString();
-		  }
+
+	public static String convertStreamToString(InputStream is) throws Exception {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+		StringBuilder sb = new StringBuilder();
+		String line = null;
+		while ((line = reader.readLine()) != null) {
+			sb.append(line + "\n");
+		}
+		is.close();
+		return sb.toString();
+	}
 
 }
