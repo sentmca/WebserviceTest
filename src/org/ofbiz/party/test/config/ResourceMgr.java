@@ -1,4 +1,5 @@
 package org.ofbiz.party.test.config;
+
 import java.util.ResourceBundle;
 
 /**

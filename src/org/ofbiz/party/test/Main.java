@@ -9,6 +9,7 @@ import org.ofbiz.party.test.webservice.WEBSERVICE;
 import org.ofbiz.party.test.webservice.WEBSERVICE.RESPONSE.RESPTRANSACTOINDETAILS;
 
 import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -17,11 +18,8 @@ import java.io.InputStreamReader;
 import java.util.List;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
-import java.util.logging.LogManager;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
-import java.util.logging.XMLFormatter;
-
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
@@ -30,8 +28,6 @@ public class Main {
 	public static void main(String[] args) {
 
 		try {
-			//String importFileLocation = ResourceMgr.getResourceFromConfigBundle("cm.sftp.import.files.location");
-			//System.out.println("testConfig_------"+importFileLocation);
 			System.out.println(postXmlString());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -45,7 +41,7 @@ public class Main {
 	
 	public static String postXmlString() throws IOException {
 		
-		FileHandler hand = new FileHandler("Debug.log", true);
+		FileHandler hand = new FileHandler("Debug1.log", true);
 		Logger log = Logger.getLogger("LoggingExample1");
 
 		log.setLevel(Level.INFO);
@@ -53,11 +49,15 @@ public class Main {
 		log.addHandler(hand);
 
 		HttpClient client = new HttpClient();
-		String url = "https://striderite.groupfio.com/crmsfa/control/updateCustomer";
+		//String url = "https://striderite.groupfio.com/crmsfa/control/updateCustomer";
+		//String url = "https://striderite.groupfio.com/crmsfa/control/atgCustomerCertificateSearch";
+		//String url = "https://striderite.groupfio.com/crmsfa/control/atgDistinctLoyaltySearch";
+		//String url = "https://striderite.groupfio.com/crmsfa/control/getEarnedPointsForAtgOrder";
+		String url = "https://striderite.groupfio.com/crmsfa/control/getAvailableBalancePointsByAtgCustomer";
 		PostMethod method = new PostMethod(url);
 
 		try {
-			FileInputStream fstream = new FileInputStream("TestFiles\\LoyaltyFailTableInsert.txt");
+			FileInputStream fstream = new FileInputStream("TestFiles\\getCustomerPoint.txt");
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
 			String strLine;
@@ -78,23 +78,31 @@ public class Main {
 						String line;
 						StringBuilder sb = new StringBuilder();
 						
+						String outPutXml="";
 						try {
-							log.info("ResponseXml:"+convertStreamToString(response));
-						} catch (Exception e) {
+							outPutXml=convertStreamToString(response);
+						} catch (Exception e1) {
 							// TODO Auto-generated catch block
-							e.printStackTrace();
+							e1.printStackTrace();
 						}
+						
+						log.info("ResponseXml:"+outPutXml);
 		
 						log.info("XML OutPut: \n" + sb.toString());
 		
-						String resPonseCode = validateOutPut(response);
-						log.info("Response Code:" + resPonseCode);
+						String resPonseCode = validateOutPut(outPutXml);
+						
+						if(resPonseCode!=null){
+							log.info("Response Code:" + resPonseCode +" : "+ResourceMgr.getResourceFromConfigBundle(resPonseCode));
+						}else{
+							log.info("Response Code:" + resPonseCode);
+						}
 		
 						if (resPonseCode != null && resPonseCode.startsWith("S")) {
 							log.info("Returened Success.");
 						} else {
 							log.warning("Service Failed.");
-							break;
+							//break;
 						}
 	
 				}
@@ -119,13 +127,15 @@ public class Main {
 	 * @param response
 	 * @return
 	 */
-	public static String validateOutPut(InputStream response) {
+	public static String validateOutPut(String response) {
 		String resPonseCode = null;
 		try {
 			JAXBContext jc = JAXBContext.newInstance(RESPONSE.class);
 			Unmarshaller u = jc.createUnmarshaller();
 
-			RESPONSE responses = (RESPONSE) u.unmarshal(response);
+			ByteArrayInputStream input = new ByteArrayInputStream (response.getBytes()); 
+			
+			RESPONSE responses = (RESPONSE) u.unmarshal(input);
 			resPonseCode = responses.getRESPONSECODE();
 
 		} catch (JAXBException e) {

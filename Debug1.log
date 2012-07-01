@@ -1,0 +1,52 @@
+Jul 1, 2012 5:24:55 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><REQUEST><CUSTOMER_ID>1015512</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 1, 2012 5:24:57 PM org.ofbiz.party.test.Main postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;null&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 1, 2012 5:24:57 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 5:24:57 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jul 1, 2012 5:24:57 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.

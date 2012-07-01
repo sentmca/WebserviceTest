@@ -1,5 +1,3 @@
-package org.ofbiz.party.test.config;
-
 import java.util.Enumeration;
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -10,7 +8,7 @@ import java.util.ResourceBundle;
  */
 public class ConfigBundle extends ResourceBundle {
 
-	private static String BUNDLE_NAME = "org.ofbiz.party.test.config.config";
+	private static String BUNDLE_NAME = "config";
 
 	private static ResourceBundle RESOURCE_BUNDLE = ResourceBundle.getBundle(BUNDLE_NAME);
   
