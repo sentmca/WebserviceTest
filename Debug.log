@@ -448,3 +448,704 @@ Jun 30, 2012 12:02:08 PM org.ofbiz.party.test.Main postXmlString
 INFO: Response Code:E118
 Jun 30, 2012 12:02:08 PM org.ofbiz.party.test.Main postXmlString
 WARNING: Service Failed.
+Jun 30, 2012 7:51:20 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000849#00001
+Jun 30, 2012 7:51:22 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1df5a8f
+Jun 30, 2012 7:51:23 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:23 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:23 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000856#00001
+Jun 30, 2012 7:51:24 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@180f96c
+Jun 30, 2012 7:51:24 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:24 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:24 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000864#00001
+Jun 30, 2012 7:51:24 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@419d05
+Jun 30, 2012 7:51:24 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:24 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:24 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000872#00001
+Jun 30, 2012 7:51:25 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1d6a56e
+Jun 30, 2012 7:51:25 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:25 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:25 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000880#00001
+Jun 30, 2012 7:51:25 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1eec35
+Jun 30, 2012 7:51:25 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:25 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:25 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000898#00001
+Jun 30, 2012 7:51:26 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1bde4
+Jun 30, 2012 7:51:26 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:26 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:26 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000906#00001
+Jun 30, 2012 7:51:26 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@8ceeea
+Jun 30, 2012 7:51:26 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:26 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:26 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000914#00001
+Jun 30, 2012 7:51:27 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1c50507
+Jun 30, 2012 7:51:27 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:27 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:27 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000922#00001
+Jun 30, 2012 7:51:27 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@b1aebf
+Jun 30, 2012 7:51:27 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:27 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:27 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000930#00001
+Jun 30, 2012 7:51:28 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@9d6065
+Jun 30, 2012 7:51:28 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:28 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:28 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000948#00001
+Jun 30, 2012 7:51:28 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@401369
+Jun 30, 2012 7:51:28 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:28 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:28 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000955#00001
+Jun 30, 2012 7:51:29 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@14acfcd
+Jun 30, 2012 7:51:29 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:29 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:29 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000963#00001
+Jun 30, 2012 7:51:29 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@15aed57
+Jun 30, 2012 7:51:29 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:29 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:29 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000971#00001
+Jun 30, 2012 7:51:30 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@80cac9
+Jun 30, 2012 7:51:30 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:30 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:30 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000989#00001
+Jun 30, 2012 7:51:30 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@b02928
+Jun 30, 2012 7:51:30 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:30 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:30 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000997#00001
+Jun 30, 2012 7:51:31 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@b6548
+Jun 30, 2012 7:51:31 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:31 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:31 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000004#00001
+Jun 30, 2012 7:51:31 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@6779e6
+Jun 30, 2012 7:51:31 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:31 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:31 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000012#00001
+Jun 30, 2012 7:51:32 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@19a029e
+Jun 30, 2012 7:51:32 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:32 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:32 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000020#00001
+Jun 30, 2012 7:51:32 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1690ab
+Jun 30, 2012 7:51:32 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:32 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 7:51:32 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000038#00001
+Jun 30, 2012 7:51:33 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@14df764
+Jun 30, 2012 7:51:33 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E118
+Jun 30, 2012 7:51:33 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:12 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000849#00001
+Jun 30, 2012 8:46:16 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1f82982
+Jun 30, 2012 8:46:17 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:17 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:17 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000856#00001
+Jun 30, 2012 8:46:17 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1c8ef56
+Jun 30, 2012 8:46:18 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:18 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:18 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000864#00001
+Jun 30, 2012 8:46:18 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@6214f5
+Jun 30, 2012 8:46:19 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:19 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:19 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000872#00001
+Jun 30, 2012 8:46:19 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1236cd5
+Jun 30, 2012 8:46:20 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:20 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:20 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000880#00001
+Jun 30, 2012 8:46:20 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@770d2e
+Jun 30, 2012 8:46:21 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:21 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:21 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000898#00001
+Jun 30, 2012 8:46:21 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@18488ef
+Jun 30, 2012 8:46:22 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:22 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:22 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000906#00001
+Jun 30, 2012 8:46:22 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@dada24
+Jun 30, 2012 8:46:23 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:23 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:23 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000914#00001
+Jun 30, 2012 8:46:23 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1b4c1d7
+Jun 30, 2012 8:46:24 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:24 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:24 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000922#00001
+Jun 30, 2012 8:46:25 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1797795
+Jun 30, 2012 8:46:25 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:25 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:25 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000930#00001
+Jun 30, 2012 8:46:26 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1e12f6d
+Jun 30, 2012 8:46:26 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:26 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:26 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000948#00001
+Jun 30, 2012 8:46:27 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@12f1bf0
+Jun 30, 2012 8:46:27 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:27 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:27 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000955#00001
+Jun 30, 2012 8:46:28 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@92b1a1
+Jun 30, 2012 8:46:28 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:28 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:28 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000963#00001
+Jun 30, 2012 8:46:29 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1f0aecc
+Jun 30, 2012 8:46:29 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:29 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:29 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000971#00001
+Jun 30, 2012 8:46:30 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@73305c
+Jun 30, 2012 8:46:30 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:30 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:30 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000989#00001
+Jun 30, 2012 8:46:31 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@46b90a
+Jun 30, 2012 8:46:31 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:31 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:31 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001100000997#00001
+Jun 30, 2012 8:46:32 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@bcb23e
+Jun 30, 2012 8:46:32 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:32 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:32 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000004#00001
+Jun 30, 2012 8:46:33 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@6dbdc9
+Jun 30, 2012 8:46:33 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:33 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:33 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000012#00001
+Jun 30, 2012 8:46:34 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@4bf53e
+Jun 30, 2012 8:46:34 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:34 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:34 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000020#00001
+Jun 30, 2012 8:46:35 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@cc0e01
+Jun 30, 2012 8:46:35 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:35 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 8:46:35 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+10001200000038#00001
+Jun 30, 2012 8:46:36 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@120dbf3
+Jun 30, 2012 8:46:36 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E113
+Jun 30, 2012 8:46:36 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 9:23:17 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jun 30, 2012 9:23:20 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@16d2633
+Jun 30, 2012 9:23:38 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jun 30, 2012 9:23:41 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1428ea
+Jun 30, 2012 9:23:42 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jun 30, 2012 9:23:42 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 9:24:57 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jun 30, 2012 9:25:00 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+org.apache.commons.httpclient.AutoCloseInputStream@1428ea
+Jun 30, 2012 9:25:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jun 30, 2012 9:25:01 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 9:27:58 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+<html>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+<head>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+<title>ERROR</title>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+</head>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+<body bgcolor="#FFFFFF">
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+<div align="center">
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+  <br/>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+  <table width="100%" border="1" height="200">
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+    <tr>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+      <td>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+        <table width="100%" border="0" height="200">
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+          <tr bgcolor="#CC6666"> 
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+            <td height="45"> 
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+            </td>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+          </tr>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+          <tr> 
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+            <td>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+            </td>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+          </tr>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+        </table>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+      </td>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+    </tr>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+  </table>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+</div>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+<div align="center"></div>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+</body>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+</html>
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jun 30, 2012 9:28:01 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jun 30, 2012 9:29:44 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jun 30, 2012 9:30:48 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jun 30, 2012 9:30:52 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+<html><head><title>ERROR</title><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/></head><body bgcolor="#FFFFFF"><div align="center">  <br/>  <table width="100%" border="1" height="200">    <tr>      <td>        <table width="100%" border="0" height="200">          <tr bgcolor="#CC6666">             <td height="45">               <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>            </td>          </tr>          <tr>             <td>              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>            </td>          </tr>        </table>      </td>    </tr>  </table></div><div align="center"></div></body></html>
+Jun 30, 2012 9:30:52 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jun 30, 2012 9:30:52 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 12:31:13 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 12:31:20 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="34111">    <RESPONSE_DATE>2012-07-01 02:01:18.38</RESPONSE_DATE>    <CUSTOMER_ID>8119297</CUSTOMER_ID>    <RESPONSE_CODE>S103</RESPONSE_CODE></RESPONSE>
+Jul 1, 2012 12:31:21 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jul 1, 2012 12:31:21 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 12:32:17 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 12:32:20 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="34112">    <RESPONSE_DATE>2012-07-01 02:02:18.08</RESPONSE_DATE>    <RESPONSE_CODE>E128</RESPONSE_CODE></RESPONSE>
+Jul 1, 2012 12:32:20 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jul 1, 2012 12:32:20 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 12:33:05 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 12:33:09 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="34113">    <RESPONSE_DATE>2012-07-01 02:03:06.831</RESPONSE_DATE>    <RESPONSE_CODE>E128</RESPONSE_CODE></RESPONSE>
+Jul 1, 2012 12:33:09 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jul 1, 2012 12:33:09 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 12:39:32 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 12:39:35 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 12:39:36 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E128
+Jul 1, 2012 12:39:36 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 12:54:47 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 12:55:13 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 12:55:15 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 12:55:16 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E128
+Jul 1, 2012 12:55:16 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 1:47:47 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 1:47:51 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 1:47:51 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E128
+Jul 1, 2012 1:47:51 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 1:52:38 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE><CROSS_REFERENCE><SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>53453453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 1:52:42 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 1:52:42 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:E128
+Jul 1, 2012 1:52:42 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 1:53:18 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 1:53:21 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 1:53:21 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jul 1, 2012 1:53:21 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 1:56:28 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 1:56:31 PM org.ofbiz.party.test.Main postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 1, 2012 1:56:31 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 1:56:31 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jul 1, 2012 1:56:31 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
