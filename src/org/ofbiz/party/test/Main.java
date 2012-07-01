@@ -8,6 +8,12 @@ import org.ofbiz.party.test.response.RESPONSE;
 import org.ofbiz.party.test.webservice.WEBSERVICE;
 import org.ofbiz.party.test.webservice.WEBSERVICE.RESPONSE.RESPTRANSACTOINDETAILS;
 
+import etm.core.configuration.BasicEtmConfigurator;
+import etm.core.configuration.EtmManager;
+import etm.core.monitor.EtmMonitor;
+import etm.core.monitor.EtmPoint;
+import etm.core.renderer.SimpleTextRenderer;
+
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
@@ -25,6 +31,10 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
 public class Main {
+	
+	 private static EtmMonitor monitor;
+	 private static final EtmMonitor etmMonitor = EtmManager.getEtmMonitor();
+	
 	public static void main(String[] args) {
 
 		try {
@@ -37,6 +47,9 @@ public class Main {
 	}
 
 	public static String postXmlString() throws IOException {
+		
+		/* Setup Jetm */
+		setup();
 
 		FileHandler hand = new FileHandler("Debug1.log", true);
 		Logger log = Logger.getLogger("LoggingExample1");
@@ -46,20 +59,20 @@ public class Main {
 		log.addHandler(hand);
 
 		HttpClient client = new HttpClient();
-//		 String url =
-//		 "https://striderite.groupfio.com/crmsfa/control/updateCustomer";
+		 String url =
+		 "https://striderite.groupfio.com/crmsfa/control/updateCustomer";
 //		 String url =
 //		 "https://striderite.groupfio.com/crmsfa/control/atgCustomerCertificateSearch";
 //		 String url =
 //		 "https://striderite.groupfio.com/crmsfa/control/atgDistinctLoyaltySearch";
 //		 String url
 //		 ="https://striderite.groupfio.com/crmsfa/control/getEarnedPointsForAtgOrder";
-		String url = "https://striderite.groupfio.com/crmsfa/control/getAvailableBalancePointsByAtgCustomer";
+//		String url = "https://striderite.groupfio.com/crmsfa/control/getAvailableBalancePointsByAtgCustomer";
 		PostMethod method = new PostMethod(url);
 
 		try {
 			FileInputStream fstream = new FileInputStream(
-					"TestFiles\\getCustomerPoint.txt");
+					"TestFiles\\LoyaltyFailTableInsert.txt");
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
 			String strLine;
@@ -74,7 +87,11 @@ public class Main {
 
 				log.info("XML INPUT: \n" + InputXml);
 				InputStream response = null;
+				
+				EtmPoint point = etmMonitor.createPoint("WebService:Post");
 				client.executeMethod(method);
+				point.collect();
+				
 				response = method.getResponseBodyAsStream();
 
 				String line;
@@ -122,6 +139,9 @@ public class Main {
 		}
 
 		method.releaseConnection();
+		
+	    etmMonitor.render(new SimpleTextRenderer());
+		tearDown();
 		return "Success";
 
 	}
@@ -133,6 +153,8 @@ public class Main {
 	 * @return
 	 */
 	public static String validateOutPut(String response) {
+		
+		EtmPoint point = etmMonitor.createPoint("WebService:UnmarshallRequest");
 		String resPonseCode = null;
 		try {
 			JAXBContext jc = JAXBContext.newInstance(RESPONSE.class);
@@ -147,7 +169,7 @@ public class Main {
 		} catch (JAXBException e) {
 			e.printStackTrace();
 		}
-
+		point.collect();
 		return resPonseCode;
 	}
 
@@ -158,6 +180,9 @@ public class Main {
 	 * @return
 	 */
 	public static String validateWebservice(InputStream response) {
+		
+		EtmPoint point = etmMonitor.createPoint("WebService:UnmarshallWebService");
+		
 		String resPonseCode = null;
 		try {
 			JAXBContext jc = JAXBContext.newInstance(WEBSERVICE.class);
@@ -180,11 +205,15 @@ public class Main {
 		} catch (JAXBException e) {
 			e.printStackTrace();
 		}
-
+		
+		point.collect();
 		return resPonseCode;
 	}
 
 	public static String convertStreamToString(InputStream is) throws Exception {
+		
+		EtmPoint point = etmMonitor.createPoint("WebService:InputStreamToString");
+		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(is));
 		StringBuilder sb = new StringBuilder();
 		String line = null;
@@ -192,7 +221,18 @@ public class Main {
 			sb.append(line + "\n");
 		}
 		is.close();
+		point.collect();
 		return sb.toString();
 	}
+	
+	private static void setup() {
+	    BasicEtmConfigurator.configure();
+	    monitor = EtmManager.getEtmMonitor();
+	    monitor.start();
+	  }
+
+	  private static void tearDown() {
+	    monitor.stop();
+	  }
 
 }

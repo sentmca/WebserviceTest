@@ -102,3 +102,175 @@ Jul 1, 2012 5:27:17 PM org.ofbiz.party.test.Main postXmlString
 INFO: Response Code:null
 Jul 1, 2012 5:27:17 PM org.ofbiz.party.test.Main postXmlString
 WARNING: Service Failed.
+Jul 1, 2012 10:55:45 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><REQUEST><CUSTOMER_ID>1015512</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 1, 2012 10:55:48 PM org.ofbiz.party.test.Main postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;null&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 1, 2012 10:55:48 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 10:55:49 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jul 1, 2012 10:55:49 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 10:57:54 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><ASSIGNED_STORE>00200</ASSIGNED_STORE><CUSTOMER_CROSS_REFERENCES/><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID>         <CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT>     </EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 10:57:57 PM org.ofbiz.party.test.Main postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="34186">
+    <RESPONSE_DATE>2012-07-01 12:27:55.59</RESPONSE_DATE>
+    <CUSTOMER_ID>8119314</CUSTOMER_ID>
+    <RESPONSE_CODE>S103</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 1, 2012 10:57:57 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 10:57:57 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S103 : Customer Created successfully
+Jul 1, 2012 10:57:57 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jul 1, 2012 10:59:15 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><ASSIGNED_STORE>00200</ASSIGNED_STORE><CUSTOMER_CROSS_REFERENCES/><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID>         <CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT>     </EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 10:59:18 PM org.ofbiz.party.test.Main postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="34187">
+    <RESPONSE_DATE>2012-07-01 12:29:16.915</RESPONSE_DATE>
+    <CUSTOMER_ID>8119315</CUSTOMER_ID>
+    <RESPONSE_CODE>S103</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 1, 2012 10:59:18 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 10:59:18 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S103 : Customer Created successfully
+Jul 1, 2012 10:59:18 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jul 1, 2012 10:59:41 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><ASSIGNED_STORE>00200</ASSIGNED_STORE><CUSTOMER_CROSS_REFERENCES/><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID>         <CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT>     </EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 10:59:44 PM org.ofbiz.party.test.Main postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="34188">
+    <RESPONSE_DATE>2012-07-01 12:29:42.639</RESPONSE_DATE>
+    <CUSTOMER_ID>8119316</CUSTOMER_ID>
+    <RESPONSE_CODE>S103</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 1, 2012 10:59:44 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 10:59:44 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S103 : Customer Created successfully
+Jul 1, 2012 10:59:44 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jul 1, 2012 11:00:23 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><ASSIGNED_STORE>00200</ASSIGNED_STORE><CUSTOMER_CROSS_REFERENCES/><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID>         <CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT>     </EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 11:00:26 PM org.ofbiz.party.test.Main postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="34189">
+    <RESPONSE_DATE>2012-07-01 12:30:25.232</RESPONSE_DATE>
+    <CUSTOMER_ID>8119317</CUSTOMER_ID>
+    <RESPONSE_CODE>S103</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 1, 2012 11:00:26 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 11:00:27 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:S103 : Customer Created successfully
+Jul 1, 2012 11:00:27 PM org.ofbiz.party.test.Main postXmlString
+INFO: Returened Success.
+Jul 1, 2012 11:04:35 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 11:04:39 PM org.ofbiz.party.test.Main postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 1, 2012 11:04:39 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 11:04:40 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jul 1, 2012 11:04:40 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
