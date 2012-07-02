@@ -30,7 +30,7 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-public class Main {
+public class WebServiceTest {
 	
 	 private static EtmMonitor monitor;
 	 private static final EtmMonitor etmMonitor = EtmManager.getEtmMonitor();

@@ -274,3 +274,1199 @@ Jul 1, 2012 11:04:40 PM org.ofbiz.party.test.Main postXmlString
 INFO: Response Code:null
 Jul 1, 2012 11:04:40 PM org.ofbiz.party.test.Main postXmlString
 WARNING: Service Failed.
+Jul 1, 2012 11:22:43 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 11:22:46 PM org.ofbiz.party.test.Main postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 1, 2012 11:22:46 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 11:22:46 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jul 1, 2012 11:22:46 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 11:22:53 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 11:22:56 PM org.ofbiz.party.test.Main postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 1, 2012 11:22:56 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 11:22:56 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jul 1, 2012 11:22:56 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 11:23:09 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 11:23:11 PM org.ofbiz.party.test.Main postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 1, 2012 11:23:11 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 11:23:12 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jul 1, 2012 11:23:12 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 11:24:47 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 11:24:49 PM org.ofbiz.party.test.Main postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 1, 2012 11:24:49 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 11:24:50 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jul 1, 2012 11:24:50 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 11:28:01 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 11:28:04 PM org.ofbiz.party.test.Main postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 1, 2012 11:28:04 PM org.ofbiz.party.test.Main postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 11:28:04 PM org.ofbiz.party.test.Main postXmlString
+INFO: Response Code:null
+Jul 1, 2012 11:28:04 PM org.ofbiz.party.test.Main postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 11:39:02 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 11:39:05 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 1, 2012 11:39:05 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 11:39:05 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 1, 2012 11:39:05 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 1, 2012 11:59:06 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 1, 2012 11:59:08 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 1, 2012 11:59:08 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 1, 2012 11:59:08 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 1, 2012 11:59:08 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:03:20 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:03:23 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:03:23 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:03:23 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:03:23 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:04:00 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:04:03 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:04:03 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:04:03 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:04:03 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:04:24 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:04:27 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:04:27 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:04:27 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:04:27 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:04:33 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:04:36 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:04:36 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:04:36 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:04:36 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:04:46 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:04:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:04:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:04:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:04:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:04:55 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:04:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:04:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:04:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:04:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:05:03 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:05:06 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:05:06 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:05:06 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:05:06 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:05:10 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:05:13 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:05:13 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:05:13 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:05:13 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:05:18 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:05:20 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:05:20 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:05:20 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:05:20 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:05:26 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:05:28 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:05:28 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:05:28 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:05:28 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:05:32 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:05:35 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:05:35 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:05:35 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:05:35 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:05:40 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:05:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:05:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:05:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:05:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:05:46 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:05:49 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:05:49 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:05:49 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:05:49 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:05:56 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:05:59 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:05:59 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:05:59 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:05:59 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:09:10 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:09:13 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:09:13 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:09:13 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:09:13 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 2, 2012 12:19:08 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>AFFINITY_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>3355799</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT></EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 2, 2012 12:19:10 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;Could not commit transaction for service &#91;updateCustomer&#93; call&#58; Roll back error, could not commit transaction, was rolled back instead because of&#58; Failure in create operation for entity &#91;LoyaltyFailedRequests&#93;&#58; org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;. Rolling back transaction.org.ofbiz.entity.GenericEntityException&#58; Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41; &#40;Error while inserting LoyaltyFailedRequests &#40;SQL Exception&#58; &#40;Table &#39;pretail_striderite_qa_seed.loyalty_failed_requests&#39; doesn&#39;t exist&#41;&#41;&#41;&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 2, 2012 12:19:10 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 2, 2012 12:19:10 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 2, 2012 12:19:10 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
