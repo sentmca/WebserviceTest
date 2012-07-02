@@ -7,6 +7,13 @@ import org.ofbiz.party.test.config.ResourceMgr;
 import org.ofbiz.party.test.response.RESPONSE;
 import org.ofbiz.party.test.webservice.WEBSERVICE;
 import org.ofbiz.party.test.webservice.WEBSERVICE.RESPONSE.RESPTRANSACTOINDETAILS;
+import org.w3c.dom.CharacterData;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
 
 import etm.core.configuration.BasicEtmConfigurator;
 import etm.core.configuration.EtmManager;
@@ -21,6 +28,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.StringReader;
 import java.util.List;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
@@ -29,6 +37,9 @@ import java.util.logging.SimpleFormatter;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 
 public class WebServiceTest {
 	
@@ -59,20 +70,20 @@ public class WebServiceTest {
 		log.addHandler(hand);
 
 		HttpClient client = new HttpClient();
-		 String url =
-		 "https://striderite.groupfio.com/crmsfa/control/updateCustomer";
 //		 String url =
-//		 "https://striderite.groupfio.com/crmsfa/control/atgCustomerCertificateSearch";
+//		 "https://striderite.groupfio.com/crmsfa/control/updateCustomer";
 //		 String url =
-//		 "https://striderite.groupfio.com/crmsfa/control/atgDistinctLoyaltySearch";
-//		 String url
-//		 ="https://striderite.groupfio.com/crmsfa/control/getEarnedPointsForAtgOrder";
+//		 "https://strideriteqa.groupfio.com/crmsfa/control/atgCustomerCertificateSearch";
+//		 String url =
+//		 "https://strideriteqa.groupfio.com/crmsfa/control/atgDistinctLoyaltySearch";
+		 String url
+		 ="https://strideriteqa.groupfio.com/crmsfa/control/getEarnedPointsForAtgOrder";
 //		String url = "https://striderite.groupfio.com/crmsfa/control/getAvailableBalancePointsByAtgCustomer";
 		PostMethod method = new PostMethod(url);
 
 		try {
 			FileInputStream fstream = new FileInputStream(
-					"TestFiles\\LoyaltyFailTableInsert.txt");
+					"TestFiles\\getEarnedPointsForAnOrder.txt");
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
 			String strLine;
@@ -109,7 +120,7 @@ public class WebServiceTest {
 
 				log.info("XML OutPut: \n" + sb.toString());
 
-				String resPonseCode = validateOutPut(outPutXml);
+				String resPonseCode = getStatusCode(outPutXml);
 
 				if (resPonseCode != null) {
 					log.info("Response Code:"
@@ -146,70 +157,52 @@ public class WebServiceTest {
 
 	}
 
-	/**
-	 * Validating Customer Responses
-	 * 
-	 * @param response
-	 * @return
-	 */
-	public static String validateOutPut(String response) {
+
+	
+	public static String getStatusCode(String xml){
 		
-		EtmPoint point = etmMonitor.createPoint("WebService:UnmarshallRequest");
-		String resPonseCode = null;
+		EtmPoint point = etmMonitor.createPoint("WebService:ParsingXmlOutput");
+		String out=null;
 		try {
-			JAXBContext jc = JAXBContext.newInstance(RESPONSE.class);
-			Unmarshaller u = jc.createUnmarshaller();
-
-			ByteArrayInputStream input = new ByteArrayInputStream(
-					response.getBytes());
-
-			RESPONSE responses = (RESPONSE) u.unmarshal(input);
-			resPonseCode = responses.getRESPONSECODE();
-
-		} catch (JAXBException e) {
+			  DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+			  InputSource is = new InputSource();
+			  is.setCharacterStream(new StringReader(xml));
+			  
+			  Document doc;
+			  doc = db.parse(is);
+			  NodeList nodes = doc.getElementsByTagName("RESPONSE_CODE");
+			
+			  Element line = (Element) nodes.item(0);
+			  
+			  if(line!=null)
+			  out = getCharacterDataFromElement(line);
+			  
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}catch (SAXException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	  
+	    
 		point.collect();
-		return resPonseCode;
+		return out;
 	}
-
-	/**
-	 * Validating Coupon Responses.
-	 * 
-	 * @param response
-	 * @return
-	 */
-	public static String validateWebservice(InputStream response) {
-		
-		EtmPoint point = etmMonitor.createPoint("WebService:UnmarshallWebService");
-		
-		String resPonseCode = null;
-		try {
-			JAXBContext jc = JAXBContext.newInstance(WEBSERVICE.class);
-			Unmarshaller u = jc.createUnmarshaller();
-
-			WEBSERVICE webSevice = (WEBSERVICE) u.unmarshal(response);
-			List<org.ofbiz.party.test.webservice.WEBSERVICE.RESPONSE> respTransDetails = webSevice
-					.getRESPONSE();
-
-			org.ofbiz.party.test.webservice.WEBSERVICE.RESPONSE resp = respTransDetails
-					.get(0);
-
-			List<RESPTRANSACTOINDETAILS> transDetails = resp
-					.getRESPTRANSACTOINDETAILS();
-
-			RESPTRANSACTOINDETAILS respCouponDetails = transDetails.get(0);
-
-			resPonseCode = respCouponDetails.getRESPONSECODE();
-
-		} catch (JAXBException e) {
-			e.printStackTrace();
-		}
-		
-		point.collect();
-		return resPonseCode;
-	}
-
+	
+	public static String getCharacterDataFromElement(Element e) {
+	    Node child = e.getFirstChild();
+	    if (child instanceof CharacterData) {
+	      CharacterData cd = (CharacterData) child;
+	      return cd.getData();
+	    }
+	    return "";
+	  }
+	
+	
 	public static String convertStreamToString(InputStream is) throws Exception {
 		
 		EtmPoint point = etmMonitor.createPoint("WebService:InputStreamToString");
