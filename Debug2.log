@@ -394,3 +394,587 @@ Jul 3, 2012 10:02:01 PM org.ofbiz.party.test.WebServiceTest postXmlString
 INFO: Response Code:S103 : Customer Created successfully
 Jul 3, 2012 10:02:01 PM org.ofbiz.party.test.WebServiceTest postXmlString
 INFO: Returened Success.
+Jul 4, 2012 2:03:41 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test Withour from and thrudate --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 4, 2012 2:03:42 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24855">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 4, 2012 2:03:42 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 2:03:42 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 4, 2012 2:03:42 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 4, 2012 2:03:42 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 4, 2012 2:03:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24856">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 4, 2012 2:03:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 2:03:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 4, 2012 2:03:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 4, 2012 2:03:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with thru date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><THRU_DATE>2012-06-01</THRU_DATE></CRITERIA>
+Jul 4, 2012 2:03:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24857">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE>2012-06-01</THRU_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 4, 2012 2:03:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 2:03:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 4, 2012 2:03:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 4, 2012 2:03:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test without Customer Id --><CRITERIA><CUSTOMER_ID></CUSTOMER_ID><THRU_DATE>2012-06-01</THRU_DATE></CRITERIA>
+Jul 4, 2012 2:03:44 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24858">
+    <TRANSACTION>
+        <RESPONSE_CODE>E110</RESPONSE_CODE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 4, 2012 2:03:44 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 2:03:44 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E110 : Customer Id Cannot be Empty
+Jul 4, 2012 2:03:44 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 4, 2012 4:08:43 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test Withour from and thrudate --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 4, 2012 4:08:47 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24860">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 4, 2012 4:08:47 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 4:08:47 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 4, 2012 4:08:47 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 4, 2012 4:08:47 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 4, 2012 4:08:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24861">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 4, 2012 4:08:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 4:08:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 4, 2012 4:08:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 4, 2012 4:08:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with thru date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><THRU_DATE>2012-06-01</THRU_DATE></CRITERIA>
+Jul 4, 2012 4:08:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24862">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE>2012-06-01</THRU_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 4, 2012 4:08:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 4:08:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 4, 2012 4:08:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 4, 2012 4:08:48 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test without Customer Id --><CRITERIA><CUSTOMER_ID></CUSTOMER_ID><THRU_DATE>2012-06-01</THRU_DATE></CRITERIA>
+Jul 4, 2012 4:08:49 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24863">
+    <TRANSACTION>
+        <RESPONSE_CODE>E110</RESPONSE_CODE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 4, 2012 4:08:49 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 4:08:49 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E110 : Customer Id Cannot be Empty
+Jul 4, 2012 4:08:49 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 4, 2012 4:15:54 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Find Customer using First & Last Name --><REQUEST><CRITERIA><REQUEST_DATE>2012-01-25 11:11:00</REQUEST_DATE><FIRST_NAME>Dana</FIRST_NAME><LAST_NAME>Mcinnis</LAST_NAME><CITY></CITY><STATE></STATE><PROVINCE></PROVINCE><CUSTOMER_ID></CUSTOMER_ID><ZIP_CODE></ZIP_CODE><EMAIL_ID></EMAIL_ID><SYSTEM_REFERENCE></SYSTEM_REFERENCE></CRITERIA> </REQUEST>
+Jul 4, 2012 4:15:56 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24865">
+    <RESPONSE_DATE>2012-07-03 17:45:55.766</RESPONSE_DATE>
+    <CUSTOMER>
+        <FIRST_NAME>Dana</FIRST_NAME>
+        <LAST_NAME>Mcinnis</LAST_NAME>
+        <CUSTOMER_ID>10115</CUSTOMER_ID>
+        <ADDRESS1/>
+        <ADDRESS2/>
+        <CITY/>
+        <ZIP/>
+        <COUNTRY/>
+        <EMAIL_ID/>
+        <PHONE_NUMBER/>
+        <ASSIGNED_STORE>9000</ASSIGNED_STORE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>PRETAIL_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>ATG_CUST_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+    </CUSTOMER>
+    <CUSTOMER>
+        <FIRST_NAME>Dana</FIRST_NAME>
+        <LAST_NAME>Mcinnis</LAST_NAME>
+        <CUSTOMER_ID>0000010179</CUSTOMER_ID>
+        <ADDRESS1>223 Vermont Ave</ADDRESS1>
+        <ADDRESS2/>
+        <CITY>Providence</CITY>
+        <STATE>RI</STATE>
+        <ZIP>02905</ZIP>
+        <COUNTRY>USA</COUNTRY>
+        <EMAIL_ID/>
+        <PHONE_NUMBER/>
+        <ASSIGNED_STORE>9000</ASSIGNED_STORE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID>130612658</SYSTEM_REFERENCE_ID>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>PRETAIL_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>ATG_CUST_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>LOYALTY_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID>10000006725</SYSTEM_REFERENCE_ID>
+        </CROSS_REFERENCE>
+    </CUSTOMER>
+</RESPONSE>
+
+Jul 4, 2012 4:15:56 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 4:15:56 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 4, 2012 4:15:56 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 4, 2012 4:18:09 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Find Customer using First & Last Name --><REQUEST><CRITERIA><REQUEST_DATE>2012-01-25 11:11:00</REQUEST_DATE><FIRST_NAME>Dana</FIRST_NAME><LAST_NAME>Mcinnis</LAST_NAME><CITY></CITY><STATE></STATE><PROVINCE></PROVINCE><CUSTOMER_ID></CUSTOMER_ID><ZIP_CODE></ZIP_CODE><EMAIL_ID></EMAIL_ID><SYSTEM_REFERENCE></SYSTEM_REFERENCE></CRITERIA> </REQUEST>
+Jul 4, 2012 4:18:11 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24866">
+    <RESPONSE_DATE>2012-07-03 17:48:10.682</RESPONSE_DATE>
+    <CUSTOMER>
+        <FIRST_NAME>Dana</FIRST_NAME>
+        <LAST_NAME>Mcinnis</LAST_NAME>
+        <CUSTOMER_ID>10115</CUSTOMER_ID>
+        <ADDRESS1/>
+        <ADDRESS2/>
+        <CITY/>
+        <ZIP/>
+        <COUNTRY/>
+        <EMAIL_ID/>
+        <PHONE_NUMBER/>
+        <ASSIGNED_STORE>9000</ASSIGNED_STORE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>PRETAIL_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>ATG_CUST_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+    </CUSTOMER>
+    <CUSTOMER>
+        <FIRST_NAME>Dana</FIRST_NAME>
+        <LAST_NAME>Mcinnis</LAST_NAME>
+        <CUSTOMER_ID>0000010179</CUSTOMER_ID>
+        <ADDRESS1>223 Vermont Ave</ADDRESS1>
+        <ADDRESS2/>
+        <CITY>Providence</CITY>
+        <STATE>RI</STATE>
+        <ZIP>02905</ZIP>
+        <COUNTRY>USA</COUNTRY>
+        <EMAIL_ID/>
+        <PHONE_NUMBER/>
+        <ASSIGNED_STORE>9000</ASSIGNED_STORE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID>130612658</SYSTEM_REFERENCE_ID>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>PRETAIL_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>ATG_CUST_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>LOYALTY_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID>10000006725</SYSTEM_REFERENCE_ID>
+        </CROSS_REFERENCE>
+    </CUSTOMER>
+</RESPONSE>
+
+Jul 4, 2012 4:18:11 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 4:18:11 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 4, 2012 4:18:11 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 4, 2012 4:18:11 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Find Customer using Phone --><REQUEST><CRITERIA><REQUEST_DATE>2012-01-25 11:11:00</REQUEST_DATE><FIRST_NAME></FIRST_NAME><LAST_NAME></LAST_NAME><CITY></CITY><STATE></STATE><PROVINCE></PROVINCE><CUSTOMER_ID></CUSTOMER_ID><ZIP_CODE></ZIP_CODE><PHONE_NUMBER>4012702078</PHONE_NUMBER><EMAIL_ID></EMAIL_ID><SYSTEM_REFERENCE></SYSTEM_REFERENCE></CRITERIA> </REQUEST>
+Jul 4, 2012 4:18:12 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24867">
+    <RESPONSE_DATE>2012-07-03 17:48:12.146</RESPONSE_DATE>
+    <RESPONSE_CODE>E105</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 4, 2012 4:18:12 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 4:18:12 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E105 : No Customer found for Input criteria
+Jul 4, 2012 4:18:12 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 4, 2012 4:19:55 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Find Customer using First & Last Name --><REQUEST><CRITERIA><REQUEST_DATE>2012-01-25 11:11:00</REQUEST_DATE><FIRST_NAME>Dana</FIRST_NAME><LAST_NAME>Mcinnis</LAST_NAME><CITY></CITY><STATE></STATE><PROVINCE></PROVINCE><CUSTOMER_ID></CUSTOMER_ID><ZIP_CODE></ZIP_CODE><EMAIL_ID></EMAIL_ID><SYSTEM_REFERENCE></SYSTEM_REFERENCE></CRITERIA> </REQUEST>
+Jul 4, 2012 4:19:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24869">
+    <RESPONSE_DATE>2012-07-03 17:49:56.837</RESPONSE_DATE>
+    <CUSTOMER>
+        <FIRST_NAME>Dana</FIRST_NAME>
+        <LAST_NAME>Mcinnis</LAST_NAME>
+        <CUSTOMER_ID>10115</CUSTOMER_ID>
+        <ADDRESS1/>
+        <ADDRESS2/>
+        <CITY/>
+        <ZIP/>
+        <COUNTRY/>
+        <EMAIL_ID/>
+        <PHONE_NUMBER/>
+        <ASSIGNED_STORE>9000</ASSIGNED_STORE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>PRETAIL_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>ATG_CUST_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+    </CUSTOMER>
+    <CUSTOMER>
+        <FIRST_NAME>Dana</FIRST_NAME>
+        <LAST_NAME>Mcinnis</LAST_NAME>
+        <CUSTOMER_ID>0000010179</CUSTOMER_ID>
+        <ADDRESS1>223 Vermont Ave</ADDRESS1>
+        <ADDRESS2/>
+        <CITY>Providence</CITY>
+        <STATE>RI</STATE>
+        <ZIP>02905</ZIP>
+        <COUNTRY>USA</COUNTRY>
+        <EMAIL_ID/>
+        <PHONE_NUMBER/>
+        <ASSIGNED_STORE>9000</ASSIGNED_STORE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID>130612658</SYSTEM_REFERENCE_ID>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>PRETAIL_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>ATG_CUST_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>LOYALTY_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID>10000006725</SYSTEM_REFERENCE_ID>
+        </CROSS_REFERENCE>
+    </CUSTOMER>
+</RESPONSE>
+
+Jul 4, 2012 4:19:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 4:19:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 4, 2012 4:19:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 4, 2012 4:19:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Find Customer using Phone --><REQUEST><CRITERIA><REQUEST_DATE>2012-01-25 11:11:00</REQUEST_DATE><FIRST_NAME></FIRST_NAME><LAST_NAME></LAST_NAME><CITY></CITY><STATE></STATE><PROVINCE></PROVINCE><CUSTOMER_ID></CUSTOMER_ID><ZIP_CODE></ZIP_CODE><PHONE_NUMBER>4012702078</PHONE_NUMBER><EMAIL_ID></EMAIL_ID><SYSTEM_REFERENCE></SYSTEM_REFERENCE></CRITERIA> </REQUEST>
+Jul 4, 2012 4:19:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24870">
+    <RESPONSE_DATE>2012-07-03 17:49:57.828</RESPONSE_DATE>
+    <RESPONSE_CODE>E105</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 4, 2012 4:19:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 4:19:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E105 : No Customer found for Input criteria
+Jul 4, 2012 4:19:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 4, 2012 4:19:57 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Find Customer using Email --><REQUEST><CRITERIA><REQUEST_DATE>2012-01-25 11:11:00</REQUEST_DATE><FIRST_NAME></FIRST_NAME><LAST_NAME></LAST_NAME><CITY></CITY><STATE></STATE><PROVINCE></PROVINCE><CUSTOMER_ID></CUSTOMER_ID><ZIP_CODE></ZIP_CODE><PHONE_NUMBER></PHONE_NUMBER><EMAIL_ID>krismart25@hotmail.com</EMAIL_ID><SYSTEM_REFERENCE></SYSTEM_REFERENCE></CRITERIA> </REQUEST>
+Jul 4, 2012 4:19:59 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24871">
+    <RESPONSE_DATE>2012-07-03 17:49:58.3</RESPONSE_DATE>
+    <CUSTOMER>
+        <FIRST_NAME>Kristen</FIRST_NAME>
+        <LAST_NAME>Martin</LAST_NAME>
+        <CUSTOMER_ID>10296</CUSTOMER_ID>
+        <ADDRESS1/>
+        <ADDRESS2/>
+        <CITY/>
+        <ZIP/>
+        <COUNTRY/>
+        <EMAIL_ID>krismart25@hotmail.com</EMAIL_ID>
+        <PHONE_NUMBER>4012702078</PHONE_NUMBER>
+        <ASSIGNED_STORE>9000</ASSIGNED_STORE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>PRETAIL_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>ATG_CUST_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+    </CUSTOMER>
+    <CUSTOMER>
+        <FIRST_NAME>Kristen</FIRST_NAME>
+        <LAST_NAME>Martins</LAST_NAME>
+        <CUSTOMER_ID>0000010190</CUSTOMER_ID>
+        <ADDRESS1>40 Lindsey Lane</ADDRESS1>
+        <ADDRESS2>Suite M</ADDRESS2>
+        <CITY>N Kingstown</CITY>
+        <STATE>RI</STATE>
+        <ZIP>02852</ZIP>
+        <COUNTRY>USA</COUNTRY>
+        <EMAIL_ID>krismart25@hotmail.com</EMAIL_ID>
+        <PHONE_NUMBER>4012702078</PHONE_NUMBER>
+        <ASSIGNED_STORE>9000</ASSIGNED_STORE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID>130607312</SYSTEM_REFERENCE_ID>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>PRETAIL_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>ATG_CUST_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID>881000009</SYSTEM_REFERENCE_ID>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>LOYALTY_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID>10324006949</SYSTEM_REFERENCE_ID>
+        </CROSS_REFERENCE>
+    </CUSTOMER>
+    <CUSTOMER>
+        <FIRST_NAME>Kristen</FIRST_NAME>
+        <LAST_NAME>Martin</LAST_NAME>
+        <CUSTOMER_ID>10316</CUSTOMER_ID>
+        <ADDRESS1/>
+        <ADDRESS2/>
+        <CITY/>
+        <ZIP/>
+        <COUNTRY/>
+        <EMAIL_ID>krismart25@hotmail.com</EMAIL_ID>
+        <PHONE_NUMBER>4012702078</PHONE_NUMBER>
+        <ASSIGNED_STORE>9000</ASSIGNED_STORE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>PRETAIL_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>ATG_CUST_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+    </CUSTOMER>
+    <CUSTOMER>
+        <FIRST_NAME>Kristen</FIRST_NAME>
+        <LAST_NAME>Martin</LAST_NAME>
+        <CUSTOMER_ID>10747</CUSTOMER_ID>
+        <ADDRESS1/>
+        <ADDRESS2/>
+        <CITY/>
+        <ZIP/>
+        <COUNTRY/>
+        <EMAIL_ID>krismart25@hotmail.com</EMAIL_ID>
+        <PHONE_NUMBER>4012702078</PHONE_NUMBER>
+        <ASSIGNED_STORE>9000</ASSIGNED_STORE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>PRETAIL_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>ATG_CUST_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+    </CUSTOMER>
+    <CUSTOMER>
+        <FIRST_NAME>Kristen</FIRST_NAME>
+        <LAST_NAME>Martin</LAST_NAME>
+        <CUSTOMER_ID>10126</CUSTOMER_ID>
+        <ADDRESS1/>
+        <ADDRESS2/>
+        <CITY/>
+        <ZIP/>
+        <COUNTRY/>
+        <EMAIL_ID>krismart25@hotmail.com</EMAIL_ID>
+        <PHONE_NUMBER>4012702078</PHONE_NUMBER>
+        <ASSIGNED_STORE>9000</ASSIGNED_STORE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>PRETAIL_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>ATG_CUST_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+    </CUSTOMER>
+    <CUSTOMER>
+        <FIRST_NAME>Kristen</FIRST_NAME>
+        <LAST_NAME>Martin</LAST_NAME>
+        <CUSTOMER_ID>10376</CUSTOMER_ID>
+        <ADDRESS1/>
+        <ADDRESS2/>
+        <CITY/>
+        <ZIP/>
+        <COUNTRY/>
+        <EMAIL_ID>krismart25@hotmail.com</EMAIL_ID>
+        <PHONE_NUMBER>4012702078</PHONE_NUMBER>
+        <ASSIGNED_STORE>9000</ASSIGNED_STORE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>WINDSS_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>PRETAIL_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+        <CROSS_REFERENCE>
+            <SYSTEM_REFERENCE>ATG_CUST_ID</SYSTEM_REFERENCE>
+            <SYSTEM_REFERENCE_ID/>
+        </CROSS_REFERENCE>
+    </CUSTOMER>
+</RESPONSE>
+
+Jul 4, 2012 4:19:59 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 4, 2012 4:19:59 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 4, 2012 4:19:59 AM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
