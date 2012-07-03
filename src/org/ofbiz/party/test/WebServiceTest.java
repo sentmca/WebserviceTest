@@ -62,7 +62,7 @@ public class WebServiceTest {
 		/* Setup Jetm */
 		setup();
 
-		FileHandler hand = new FileHandler("Debug1.log", true);
+		FileHandler hand = new FileHandler("Debug2.log", true);
 		Logger log = Logger.getLogger("LoggingExample1");
 
 		log.setLevel(Level.INFO);
@@ -70,20 +70,17 @@ public class WebServiceTest {
 		log.addHandler(hand);
 
 		HttpClient client = new HttpClient();
-		 String url =
-		 "https://striderite.groupfio.com/crmsfa/control/updateCustomer";
-//		 String url =
-//		 "https://strideriteqa.groupfio.com/crmsfa/control/atgCustomerCertificateSearch";
-//		 String url =
-//		 "https://strideriteqa.groupfio.com/crmsfa/control/atgDistinctLoyaltySearch";
-//		 String url
-//		 ="https://strideriteqa.groupfio.com/crmsfa/control/getEarnedPointsForAtgOrder";
-//		String url = "https://striderite.groupfio.com/crmsfa/control/getAvailableBalancePointsByAtgCustomer";
-		PostMethod method = new PostMethod(url);
+//		 String url ="https://striderite.groupfio.com/crmsfa/control/updateCustomer";
+//		 String url ="https://strideriteqa.groupfio.com/crmsfa/control/atgCustomerCertificateSearch";
+//		 String url ="https://strideriteqa.groupfio.com/crmsfa/control/atgDistinctLoyaltySearch";
+//		 String url ="https://strideriteqa.groupfio.com/crmsfa/control/getEarnedPointsForAtgOrder";
+//		 String url = "https://striderite.groupfio.com/crmsfa/control/getAvailableBalancePointsByAtgCustomer";
+		 String url = "http://strideritept.groupfio.com/crmsfa/control/getAvailableBalancePointsByAtgCustomer";
+//		 String url ="http://localhost:3311/crmsfa/control/getAvailableBalancePointsByAtgCustomer";
 
 		try {
 			FileInputStream fstream = new FileInputStream(
-					"TestFiles\\CreateCustomer.txt");
+					"TestFiles\\getCustomerPoint.txt");
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
 			String strLine;
@@ -91,12 +88,14 @@ public class WebServiceTest {
 			while ((strLine = br.readLine()) != null) {
 				String InputXml = strLine;
 
+				if(InputXml==null || "".equals(InputXml))continue;
+				PostMethod method = new PostMethod(url);
 				// String[] loyId = strLine.split("#");
-				method.setParameter("XmlInput", strLine);
+				method.setParameter("XmlInput", InputXml);
 
 				// method.setParameter("XmlInput","<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?><WEBSERVICE><REQUEST><REQ_COUPON_DETAILS><REQ_COUPON_CODE>"+loyId[0].trim()+"</REQ_COUPON_CODE><REQ_COUPON_TYPE>SERIALIZE</REQ_COUPON_TYPE></REQ_COUPON_DETAILS><REQ_TRANSACTION_DETAILS><REQ_STORE_ID>"+loyId[1].trim()+"</REQ_STORE_ID><REQUEST_DATE>2011-09-30 13:17:00</REQUEST_DATE></REQ_TRANSACTION_DETAILS></REQUEST></WEBSERVICE>");
 
-				log.info("XML INPUT: \n" + InputXml);
+				log.info("XML INPUT: \n" + InputXml.trim());
 				InputStream response = null;
 				
 				EtmPoint point = etmMonitor.createPoint("WebService:Post");
@@ -104,7 +103,7 @@ public class WebServiceTest {
 				point.collect();
 				
 				response = method.getResponseBodyAsStream();
-
+				//method.removeParameter("XmlInput");
 				String line;
 				StringBuilder sb = new StringBuilder();
 
@@ -138,7 +137,8 @@ public class WebServiceTest {
 					log.warning("Service Failed.");
 					// break;
 				}
-
+				
+				method.releaseConnection();
 			}
 			in.close();
 		} catch (HttpException e) {
@@ -148,8 +148,6 @@ public class WebServiceTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
-		method.releaseConnection();
 		
 	    etmMonitor.render(new SimpleTextRenderer());
 		tearDown();

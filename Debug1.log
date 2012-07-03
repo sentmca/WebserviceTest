@@ -3577,3 +3577,1432 @@ Jul 3, 2012 12:47:15 AM org.ofbiz.party.test.WebServiceTest postXmlString
 INFO: Response Code:S103 : Customer Created successfully
 Jul 3, 2012 12:47:15 AM org.ofbiz.party.test.WebServiceTest postXmlString
 INFO: Returened Success.
+Jul 3, 2012 11:05:59 AM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Creation Test --><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><ASSIGNED_STORE>00200</ASSIGNED_STORE><CUSTOMER_CROSS_REFERENCES/><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID>         <CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT>     </EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 3, 2012 1:17:22 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 1:17:23 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11523">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 1:17:23 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 1:17:23 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 1:17:23 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 1:17:42 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 1:17:42 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11524">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 1:17:42 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 1:17:42 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 1:17:42 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 2:48:35 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 2:48:36 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11525">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 2:48:36 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 2:48:36 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 2:48:36 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 2:51:30 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 2:51:30 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11530">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 2:51:30 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 2:51:30 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 2:51:30 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 2:51:30 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 2:51:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 2:51:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11532">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 2:51:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 2:51:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 2:51:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 2:51:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 2:52:42 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 2:52:47 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11534">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 2:52:48 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 2:52:49 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 2:52:50 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 2:52:56 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 2:53:40 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 2:53:40 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11536">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 2:53:40 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 2:53:40 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 2:53:40 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 2:53:40 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 2:55:05 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 2:55:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11538">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 2:55:13 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 2:55:18 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 2:55:21 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 2:55:26 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 2:56:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 2:56:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11540">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 2:56:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 2:56:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 2:56:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 2:56:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 2:57:41 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 2:57:41 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11542">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 2:57:41 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 2:57:41 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 2:57:41 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 2:57:41 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 2:58:41 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 2:58:51 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11544">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 2:58:51 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 2:58:52 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 2:58:53 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 2:59:04 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 3:00:03 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 3:00:04 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11546">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 3:00:04 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 3:00:04 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 3:00:04 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 3:00:04 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 3:09:58 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 3:09:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+Jul 3, 2012 3:09:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 3:09:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 3:09:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 3:09:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 3:10:40 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 3:10:41 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11551">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>0.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-07-03 00:00:00.0</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 3:10:41 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 3:10:41 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 3:10:41 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 3:10:41 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 3:11:00 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 3:11:01 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+Jul 3, 2012 3:11:01 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 3:11:01 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 3:11:01 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 3:11:01 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 3:12:17 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 3:12:17 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11554">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>0.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-07-03 00:00:00.0</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 3:12:17 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 3:12:17 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 3:12:17 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 3:12:17 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 3:13:13 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 3:13:27 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 5:03:35 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 5:03:54 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 5:03:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;null&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 3, 2012 5:03:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:03:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:03:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:03:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:05:12 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 5:05:29 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 5:05:31 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;null&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 3, 2012 5:05:31 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:05:31 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:05:31 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:05:31 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:06:06 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 5:07:44 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 5:07:45 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;null&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 3, 2012 5:07:45 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:07:45 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:07:45 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:07:45 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:08:48 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 5:08:50 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;null&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 3, 2012 5:08:50 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:08:50 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:08:50 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:08:50 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:09:19 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:09:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24783">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:09:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:09:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:09:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:09:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 5:09:21 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24784">
+    <TRANSACTION/>
+    <RESPONSE_CODE>E102</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 3, 2012 5:09:21 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:09:21 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E102 : XML SAX Exception
+Jul 3, 2012 5:09:21 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:10:33 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:10:35 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24785">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:10:35 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:10:35 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:10:35 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:10:35 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 5:10:36 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24786">
+    <TRANSACTION/>
+    <RESPONSE_CODE>E102</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 3, 2012 5:10:36 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:10:36 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E102 : XML SAX Exception
+Jul 3, 2012 5:10:36 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:10:53 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:10:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24787">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:10:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:10:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:10:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:10:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="ISO-8859-1"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 5:10:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24788">
+    <TRANSACTION/>
+    <RESPONSE_CODE>E102</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 3, 2012 5:10:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:10:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E102 : XML SAX Exception
+Jul 3, 2012 5:10:55 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:12:18 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:12:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24789">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:12:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:12:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:12:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:12:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 5:12:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24790">
+    <TRANSACTION/>
+    <RESPONSE_CODE>E102</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 3, 2012 5:12:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:12:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E102 : XML SAX Exception
+Jul 3, 2012 5:12:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:12:58 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:13:02 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24791">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:13:02 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:13:02 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:13:02 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:13:02 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test without date --><REQUEST><CUSTOMER_ID>10093</CUSTOMER_ID><RECORD_LIMIT></RECORD_LIMIT><FROM_DATE></FROM_DATE><THRU_DATE></THRU_DATE></REQUEST>
+Jul 3, 2012 5:13:03 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24792">
+    <TRANSACTION/>
+    <RESPONSE_CODE>E102</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 3, 2012 5:13:03 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:13:03 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E102 : XML SAX Exception
+Jul 3, 2012 5:13:03 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:14:32 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:14:34 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24793">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:14:34 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:14:34 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:14:34 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:14:34 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 5:15:32 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:15:34 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24795">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:15:34 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:15:34 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:15:34 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:15:34 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 5:16:46 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:16:47 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24797">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:16:47 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:16:47 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 5:17:12 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:17:14 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24799">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:17:14 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 5:17:32 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:17:33 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 5:18:09 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:18:10 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 5:19:30 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:19:32 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24806">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:19:32 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:19:32 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:19:32 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:19:32 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 5:20:12 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:20:13 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24811">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:20:13 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:20:14 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:20:14 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:20:14 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 5:25:15 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24819">
+    <TRANSACTION/>
+    <RESPONSE_CODE>E101</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 3, 2012 5:25:15 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:25:15 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E101 : Empty Input String Passed
+Jul 3, 2012 5:25:15 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:25:15 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+A>
+Jul 3, 2012 5:30:17 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24825">
+    <TRANSACTION/>
+    <RESPONSE_CODE>E101</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 3, 2012 5:30:17 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:30:17 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E101 : Empty Input String Passed
+Jul 3, 2012 5:30:17 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:30:57 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:31:46 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11562">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>0.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <THRU_DATE>3000-01-01</THRU_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:31:46 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:31:46 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:31:46 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:31:46 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 5:32:25 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11563">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>0.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-07-03 00:00:00.0</FROM_DATE>
+        <FROM_DATE>2012-07-03 23:59:59.0</FROM_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:32:25 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:32:25 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:32:25 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:38:54 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:39:02 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11570">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <THRU_DATE>3000-01-01</THRU_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:39:02 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:39:02 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:39:02 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:39:02 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 5:39:06 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11571">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:39:06 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:39:06 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:39:06 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:39:19 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 5:39:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11572">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <THRU_DATE>3000-01-01</THRU_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:39:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:39:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:39:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 5:39:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 5:39:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="11573">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 5:39:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 5:39:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 5:39:20 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 6:02:23 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 6:02:31 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24830">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 6:02:31 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 6:02:31 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 6:02:31 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 6:02:31 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 6:02:32 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24831">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 6:02:32 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 6:02:32 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 6:02:32 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 6:03:57 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test Withour from and thrudate --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 6:03:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24832">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 6:03:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 6:03:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 6:03:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 6:03:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 6:03:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24833">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 6:03:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 6:03:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 6:03:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 6:03:59 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with thru date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><THRU_DATE>2012-06-01</THRU_DATE></CRITERIA>
+Jul 3, 2012 6:04:00 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24834">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE>2012-06-01</THRU_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 6:04:00 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 6:04:00 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 6:04:00 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 6:05:08 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test Withour from and thrudate --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 6:05:09 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24835">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 6:05:09 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 6:05:09 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 6:05:09 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 6:05:09 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 6:05:10 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24836">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 6:05:10 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 6:05:10 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 6:05:10 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 6:05:10 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with thru date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><THRU_DATE>2012-06-01</THRU_DATE></CRITERIA>
+Jul 3, 2012 6:05:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24837">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE>2012-06-01</THRU_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 6:05:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 6:05:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 6:05:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 6:05:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test without Customer Id --><CRITERIA><CUSTOMER_ID></CUSTOMER_ID><THRU_DATE>2012-06-01</THRU_DATE></CRITERIA>
+Jul 3, 2012 6:05:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24838">
+    <TRANSACTION>
+        <RESPONSE_CODE>E110</RESPONSE_CODE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 6:05:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 6:05:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E110 : Customer Id Cannot be Empty
+Jul 3, 2012 6:05:11 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 6:07:26 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test Withour from and thrudate --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 6:07:27 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24839">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 6:07:27 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 6:07:27 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 6:07:27 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 6:07:27 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 6:07:28 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24840">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE>2012-02-01</FROM_DATE>
+        <THRU_DATE/>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 6:07:28 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 6:07:28 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 6:07:28 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 6:07:28 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with thru date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><THRU_DATE>2012-06-01</THRU_DATE></CRITERIA>
+Jul 3, 2012 6:07:28 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24841">
+    <TRANSACTION>
+        <CUSTOMER_ID>10093</CUSTOMER_ID>
+        <CURRENT_POINTS_BALANCE>70.0</CURRENT_POINTS_BALANCE>
+        <POINTS_ACCUMULATED>2920.0</POINTS_ACCUMULATED>
+        <POINTS_REDEEMED>2850.0</POINTS_REDEEMED>
+        <POINTS_EXPIRED>0.0</POINTS_EXPIRED>
+        <FROM_DATE/>
+        <THRU_DATE>2012-06-01</THRU_DATE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 6:07:28 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 6:07:28 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 6:07:28 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 6:07:28 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test without Customer Id --><CRITERIA><CUSTOMER_ID></CUSTOMER_ID><THRU_DATE>2012-06-01</THRU_DATE></CRITERIA>
+Jul 3, 2012 6:07:29 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="24842">
+    <TRANSACTION>
+        <RESPONSE_CODE>E110</RESPONSE_CODE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 6:07:29 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 6:07:29 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E110 : Customer Id Cannot be Empty
+Jul 3, 2012 6:07:29 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
