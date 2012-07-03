@@ -256,3 +256,141 @@ Jul 3, 2012 6:50:13 PM org.ofbiz.party.test.WebServiceTest postXmlString
 INFO: Response Code:E110 : Customer Id Cannot be Empty
 Jul 3, 2012 6:50:13 PM org.ofbiz.party.test.WebServiceTest postXmlString
 WARNING: Service Failed.
+Jul 3, 2012 9:51:03 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test Withour from and thrudate --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID></CRITERIA>
+Jul 3, 2012 9:51:06 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:
+
+
+
+
+
+
+<html>
+<head>
+<title>ERROR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+</head>
+
+
+
+<body bgcolor="#FFFFFF">
+<div align="center">
+  <br/>
+  <table width="100%" border="1" height="200">
+    <tr>
+      <td>
+        <table width="100%" border="0" height="200">
+          <tr bgcolor="#CC6666"> 
+            <td height="45"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="4" color="#FFFFFF"><b>:ERROR MESSAGE:</b></font></div>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <div align="left"><span style="font: 10pt Courier">org.ofbiz.webapp.event.EventHandlerException&#58; Service invocation error &#40;null&#41;</span></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+<div align="center"></div>
+</body>
+</html>
+
+Jul 3, 2012 9:51:06 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 9:51:06 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:null
+Jul 3, 2012 9:51:06 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 9:51:06 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with from date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><FROM_DATE>2012-02-01</FROM_DATE></CRITERIA>
+Jul 3, 2012 9:51:07 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="35163">
+    <TRANSACTION>
+        <RESPONSE_CODE>E111</RESPONSE_CODE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 9:51:07 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 9:51:07 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E111 : Cannot Find Customer
+Jul 3, 2012 9:51:07 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 9:51:07 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test with thru date only --><CRITERIA><CUSTOMER_ID>10093</CUSTOMER_ID><THRU_DATE>2012-06-01</THRU_DATE></CRITERIA>
+Jul 3, 2012 9:51:09 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="35164">
+    <TRANSACTION>
+        <RESPONSE_CODE>E111</RESPONSE_CODE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 9:51:09 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 9:51:09 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E111 : Cannot Find Customer
+Jul 3, 2012 9:51:09 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 9:51:09 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Points Test without Customer Id --><CRITERIA><CUSTOMER_ID></CUSTOMER_ID><THRU_DATE>2012-06-01</THRU_DATE></CRITERIA>
+Jul 3, 2012 9:51:10 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="35165">
+    <TRANSACTION>
+        <RESPONSE_CODE>E110</RESPONSE_CODE>
+    </TRANSACTION>
+</RESPONSE>
+
+Jul 3, 2012 9:51:10 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 9:51:10 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:E110 : Customer Id Cannot be Empty
+Jul 3, 2012 9:51:10 PM org.ofbiz.party.test.WebServiceTest postXmlString
+WARNING: Service Failed.
+Jul 3, 2012 10:01:56 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Creation Test --><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><ASSIGNED_STORE>00200</ASSIGNED_STORE><CUSTOMER_CROSS_REFERENCES/><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID>         <CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT>     </EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 3, 2012 10:02:00 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="35166">
+    <RESPONSE_DATE>2012-07-03 11:30:38.862</RESPONSE_DATE>
+    <CUSTOMER_ID>8119297</CUSTOMER_ID>
+    <RESPONSE_CODE>S103</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 3, 2012 10:02:00 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 10:02:00 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:S103 : Customer Created successfully
+Jul 3, 2012 10:02:00 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Returened Success.
+Jul 3, 2012 10:02:00 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML INPUT: 
+<?xml version="1.0" encoding="UTF-8"?><!-- Creation Test --><REQUEST><CUSTOMER><FIRST_NAME>Hollie</FIRST_NAME><LAST_NAME>Sailors</LAST_NAME><CUSTOMER_ID></CUSTOMER_ID><ASSIGNED_STORE>00200</ASSIGNED_STORE><CUSTOMER_CROSS_REFERENCES><CROSS_REFERENCE><SYSTEM_REFERENCE>ATG_CUST_ID</SYSTEM_REFERENCE><SYSTEM_REFERENCE_ID>4578353453</SYSTEM_REFERENCE_ID></CROSS_REFERENCE></CUSTOMER_CROSS_REFERENCES><POSTAL_CONTACTS><CONTACT><TO_NAME>Hollie Sailors</TO_NAME><ADDRESS1>10210 Pearl Dr</ADDRESS1><ADDRESS2/><CITY>HOUSTON</CITY><STATE>TX</STATE><ZIPCODE>77064</ZIPCODE><COUNTRY>USA</COUNTRY><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>GENERAL_LOCATION</CONTACT_TYPE></CONTACT></POSTAL_CONTACTS><EMAIL_CONTACTS><CONTACT><EMAIL>jhsailors@comcast.net</EMAIL><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_EMAIL</CONTACT_TYPE></CONTACT>     </EMAIL_CONTACTS><PHONE_CONTACTS><CONTACT><PHONE>2819703595</PHONE><CONTACT_MECH_ID></CONTACT_MECH_ID><CUSTOMER_MECH_REFERENCES/><CONTACT_TYPE>PRIMARY_PHONE</CONTACT_TYPE></CONTACT></PHONE_CONTACTS><LOYALTY_ID/></CUSTOMER></REQUEST>
+Jul 3, 2012 10:02:01 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: ResponseXml:<?xml version="1.0" encoding="UTF-8"?><RESPONSE ResponseId="35167">
+    <RESPONSE_DATE>2012-07-03 11:30:40.126</RESPONSE_DATE>
+    <CUSTOMER_ID>8119298</CUSTOMER_ID>
+    <LOYALTY_ID>10000003185</LOYALTY_ID>
+    <RESPONSE_CODE>S103</RESPONSE_CODE>
+</RESPONSE>
+
+Jul 3, 2012 10:02:01 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: XML OutPut: 
+
+Jul 3, 2012 10:02:01 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Response Code:S103 : Customer Created successfully
+Jul 3, 2012 10:02:01 PM org.ofbiz.party.test.WebServiceTest postXmlString
+INFO: Returened Success.
