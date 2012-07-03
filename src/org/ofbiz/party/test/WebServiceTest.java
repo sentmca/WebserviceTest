@@ -70,20 +70,20 @@ public class WebServiceTest {
 		log.addHandler(hand);
 
 		HttpClient client = new HttpClient();
-//		 String url =
-//		 "https://striderite.groupfio.com/crmsfa/control/updateCustomer";
+		 String url =
+		 "https://striderite.groupfio.com/crmsfa/control/updateCustomer";
 //		 String url =
 //		 "https://strideriteqa.groupfio.com/crmsfa/control/atgCustomerCertificateSearch";
 //		 String url =
 //		 "https://strideriteqa.groupfio.com/crmsfa/control/atgDistinctLoyaltySearch";
-		 String url
-		 ="https://strideriteqa.groupfio.com/crmsfa/control/getEarnedPointsForAtgOrder";
+//		 String url
+//		 ="https://strideriteqa.groupfio.com/crmsfa/control/getEarnedPointsForAtgOrder";
 //		String url = "https://striderite.groupfio.com/crmsfa/control/getAvailableBalancePointsByAtgCustomer";
 		PostMethod method = new PostMethod(url);
 
 		try {
 			FileInputStream fstream = new FileInputStream(
-					"TestFiles\\getEarnedPointsForAnOrder.txt");
+					"TestFiles\\CreateCustomer.txt");
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
 			String strLine;
