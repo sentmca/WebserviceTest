@@ -67,18 +67,29 @@ public class WebServiceTest {
 		log.addHandler(hand);
 
 		HttpClient client = new HttpClient();
-		 String url ="http://strideritept.groupfio.com/crmsfa/control/findCustomers";
-//		 String url ="https://strideriteqa.groupfio.com/crmsfa/control/updateCustomer";
-//		 String url ="https://strideriteqa.groupfio.com/crmsfa/control/atgCustomerCertificateSearch";
-//		 String url ="https://strideriteqa.groupfio.com/crmsfa/control/atgDistinctLoyaltySearch";
-//		 String url ="https://strideriteqa.groupfio.com/crmsfa/control/getEarnedPointsForAtgOrder";
-//		 String url = "http://strideritept.groupfio.com/crmsfa/control/getAvailableBalancePointsByAtgCustomer";
-//		 String url = "https://strideriteqa.groupfio.com/crmsfa/control/getAvailableBalancePointsByAtgCustomer";
-//		 String url ="http://localhost:3311/crmsfa/control/getAvailableBalancePointsByAtgCustomer";
+		String configProperty ="";
+		
+		configProperty="customer.Find";
+//		configProperty="customer.FindComplete";
+//		configProperty="customer.Create";
+//		configProperty="customer.Update";
+//		configProperty="order.findHeader";
+//		configProperty="order.completeDetail";
+//		configProperty="coupon.Authentication";
+//		configProperty="coupon.Post";
+//		configProperty="coupon.Download";
 
+		String confSetting = ResourceMgr.getResourceFromConfigBundle(configProperty);
+		
+		if(confSetting==null || "".equals(confSetting))return "Configuration Not Set";
+		
+		String[] configUrlFile = confSetting.split("#");
+		
+		 String url = configUrlFile[0];
+		 String filePath=configUrlFile[1];
+		 
 		try {
-			FileInputStream fstream = new FileInputStream(
-					"TestFiles\\FindCustomers.txt");
+			FileInputStream fstream = new FileInputStream("TestFiles\\"+filePath);
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
 			String strLine;
