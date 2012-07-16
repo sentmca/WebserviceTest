@@ -34,16 +34,16 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 public class WebServiceTest {
-	
-	 private static EtmMonitor monitor;
-	 private static final EtmMonitor etmMonitor = EtmManager.getEtmMonitor();
-	 private static String configProperty="";
-	 
+
+	private static EtmMonitor monitor;
+	private static final EtmMonitor etmMonitor = EtmManager.getEtmMonitor();
+	private static String configProperty = "";
+
 	@SuppressWarnings("static-access")
-	public WebServiceTest(String property){
-		 this.configProperty = property;
-	 }
-	
+	public WebServiceTest(String property) {
+		this.configProperty = property;
+	}
+
 	public static void main(String[] args) {
 
 		try {
@@ -56,7 +56,7 @@ public class WebServiceTest {
 	}
 
 	public static String postXmlString() throws IOException {
-		
+
 		/* Setup Jetm */
 		setup();
 
@@ -68,16 +68,19 @@ public class WebServiceTest {
 		log.addHandler(hand);
 
 		HttpClient client = new HttpClient();
-		String confSetting = ResourceMgr.getResourceFromConfigBundle(configProperty);
-		if(confSetting==null || "".equals(confSetting))return "Configuration Not Set";
-		
+		String confSetting = ResourceMgr
+				.getResourceFromConfigBundle(configProperty);
+		if (confSetting == null || "".equals(confSetting))
+			return "Configuration Not Set";
+
 		String[] configUrlFile = confSetting.split("#");
-		
-		 String url = configUrlFile[0];
-		 String filePath=configUrlFile[1];
-		 
+
+		String url = configUrlFile[0];
+		String filePath = configUrlFile[1];
+
 		try {
-			FileInputStream fstream = new FileInputStream("TestFiles\\"+filePath);
+			FileInputStream fstream = new FileInputStream("TestFiles\\"
+					+ filePath);
 			DataInputStream in = new DataInputStream(fstream);
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
 			String strLine;
@@ -85,7 +88,8 @@ public class WebServiceTest {
 			while ((strLine = br.readLine()) != null) {
 				String InputXml = strLine;
 
-				if(InputXml==null || "".equals(InputXml))continue;
+				if (InputXml == null || "".equals(InputXml))
+					continue;
 				PostMethod method = new PostMethod(url);
 				// String[] loyId = strLine.split("#");
 				method.setParameter("XmlInput", InputXml);
@@ -94,11 +98,11 @@ public class WebServiceTest {
 
 				log.info("XML INPUT: \n" + InputXml.trim());
 				InputStream response = null;
-				
+
 				EtmPoint point = etmMonitor.createPoint("WebService:Post");
 				client.executeMethod(method);
 				point.collect();
-				
+
 				response = method.getResponseBodyAsStream();
 				StringBuilder sb = new StringBuilder();
 
@@ -132,7 +136,7 @@ public class WebServiceTest {
 					log.warning("Service Failed.");
 					// break;
 				}
-				
+
 				method.releaseConnection();
 			}
 			in.close();
@@ -143,63 +147,61 @@ public class WebServiceTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-	    etmMonitor.render(new SimpleTextRenderer());
+
+		etmMonitor.render(new SimpleTextRenderer());
 		tearDown();
 		return "Success";
 
 	}
 
+	public static String getStatusCode(String xml) {
 
-	
-	public static String getStatusCode(String xml){
-		
 		EtmPoint point = etmMonitor.createPoint("WebService:ParsingXmlOutput");
-		String out=null;
+		String out = null;
 		try {
-			  DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-			  InputSource is = new InputSource();
-			  is.setCharacterStream(new StringReader(xml));
-			  
-			  Document doc;
-			  doc = db.parse(is);
-			  NodeList nodes = doc.getElementsByTagName("RESPONSE_CODE");
-			
-			  Element line = (Element) nodes.item(0);
-			  
-			  if(line!=null)
-			  out = getCharacterDataFromElement(line);
-			  
+			DocumentBuilder db = DocumentBuilderFactory.newInstance()
+					.newDocumentBuilder();
+			InputSource is = new InputSource();
+			is.setCharacterStream(new StringReader(xml));
+
+			Document doc;
+			doc = db.parse(is);
+			NodeList nodes = doc.getElementsByTagName("RESPONSE_CODE");
+
+			Element line = (Element) nodes.item(0);
+
+			if (line != null)
+				out = getCharacterDataFromElement(line);
+
 		} catch (ParserConfigurationException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}catch (SAXException e) {
+		} catch (SAXException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	  
-	    
+
 		point.collect();
 		return out;
 	}
-	
+
 	public static String getCharacterDataFromElement(Element e) {
-	    Node child = e.getFirstChild();
-	    if (child instanceof CharacterData) {
-	      CharacterData cd = (CharacterData) child;
-	      return cd.getData();
-	    }
-	    return "";
-	  }
-	
-	
+		Node child = e.getFirstChild();
+		if (child instanceof CharacterData) {
+			CharacterData cd = (CharacterData) child;
+			return cd.getData();
+		}
+		return "";
+	}
+
 	public static String convertStreamToString(InputStream is) throws Exception {
-		
-		EtmPoint point = etmMonitor.createPoint("WebService:InputStreamToString");
-		
+
+		EtmPoint point = etmMonitor
+				.createPoint("WebService:InputStreamToString");
+
 		BufferedReader reader = new BufferedReader(new InputStreamReader(is));
 		StringBuilder sb = new StringBuilder();
 		String line = null;
@@ -210,15 +212,15 @@ public class WebServiceTest {
 		point.collect();
 		return sb.toString();
 	}
-	
-	private static void setup() {
-	    BasicEtmConfigurator.configure();
-	    monitor = EtmManager.getEtmMonitor();
-	    monitor.start();
-	  }
 
-	  private static void tearDown() {
-	    monitor.stop();
-	  }
+	private static void setup() {
+		BasicEtmConfigurator.configure();
+		monitor = EtmManager.getEtmMonitor();
+		monitor.start();
+	}
+
+	private static void tearDown() {
+		monitor.stop();
+	}
 
 }
