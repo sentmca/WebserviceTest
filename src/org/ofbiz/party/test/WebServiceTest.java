@@ -19,21 +19,16 @@ import etm.core.monitor.EtmPoint;
 import etm.core.renderer.SimpleTextRenderer;
 
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.StringReader;
-import java.util.List;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Unmarshaller;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -42,6 +37,12 @@ public class WebServiceTest {
 	
 	 private static EtmMonitor monitor;
 	 private static final EtmMonitor etmMonitor = EtmManager.getEtmMonitor();
+	 private static String configProperty="";
+	 
+	@SuppressWarnings("static-access")
+	public WebServiceTest(String property){
+		 this.configProperty = property;
+	 }
 	
 	public static void main(String[] args) {
 
@@ -67,20 +68,7 @@ public class WebServiceTest {
 		log.addHandler(hand);
 
 		HttpClient client = new HttpClient();
-		String configProperty ="";
-		
-		configProperty="customer.Find";
-//		configProperty="customer.FindComplete";
-//		configProperty="customer.Create";
-//		configProperty="customer.Update";
-//		configProperty="order.findHeader";
-//		configProperty="order.completeDetail";
-//		configProperty="coupon.Authentication";
-//		configProperty="coupon.Post";
-//		configProperty="coupon.Download";
-
 		String confSetting = ResourceMgr.getResourceFromConfigBundle(configProperty);
-		
 		if(confSetting==null || "".equals(confSetting))return "Configuration Not Set";
 		
 		String[] configUrlFile = confSetting.split("#");
@@ -112,8 +100,6 @@ public class WebServiceTest {
 				point.collect();
 				
 				response = method.getResponseBodyAsStream();
-				//method.removeParameter("XmlInput");
-				String line;
 				StringBuilder sb = new StringBuilder();
 
 				String outPutXml = "";
